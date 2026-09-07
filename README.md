@@ -74,9 +74,15 @@ Backend destinado al canal de cajeros automáticos.
 
 Su objetivo es exponer operaciones específicas y simplificadas para el canal ATM, como consulta de saldo y operaciones bancarias críticas.
 
-Puerto configurado:
+Endpoint:
 
-8083
+GET http://localhost:8083/atm/accounts
+
+Ejemplo de respuestas:
+{
+    "numeroCuenta": 1001,
+    "saldoDisponible": 1250000.00
+}
 
 Tecnologías utilizadas
 
